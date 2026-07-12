@@ -7,4 +7,4 @@ RUN pip install poetry && poetry install --no-root
 
 COPY . .
 
-CMD ["python", "-m", "unit-converter"]
+CMD ["python", "-m", "unit_converter"]
